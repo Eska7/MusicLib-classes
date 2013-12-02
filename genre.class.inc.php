@@ -2,7 +2,7 @@
 	/*
 	 * @author Antoine Mady
 	 *
-	 * Class Genre: modelises a genre of an album
+	 * Class Genre: modelises a genre of a song.
 	 *
 	 */
 	class Genre {
