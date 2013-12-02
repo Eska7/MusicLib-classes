@@ -26,10 +26,10 @@ create table `album` (
   `id` bigint(20) not null auto_increment,
   `name` varchar(64) not null,
   `disc` int(2) unsigned not null,
-  `releasedate` bigint(20) not null,
+  `releaseDate` bigint(20) not null,
   `artwork` varchar(128) not null,
-  `uploaddate` bigint(20) not null,
-  `uploaduser` bigint(20) not null,
+  `uploadDate` bigint(20) not null,
+  `uploadUser` bigint(20) not null,
   `type` int(11) not null,
   primary key (`id`)
 ) engine=innodb auto_increment=2 default charset=latin1;
@@ -61,8 +61,8 @@ create table `artist` (
   `id` bigint(20) not null auto_increment,
   `name` varchar(128) not null,
   `biography` text not null,
-  `uploaddate` bigint(20) not null,
-  `uploaduser` bigint(20) not null,
+  `uploadDate` bigint(20) not null,
+  `uploadUser` bigint(20) not null,
   `picture` varchar(128) not null,
   primary key (`id`)
 ) engine=innodb auto_increment=2 default charset=latin1;
@@ -296,7 +296,7 @@ create table `user` (
   `username` varchar(32) not null,
   `email` varchar(256) not null,
   `password` text not null,
-  `publicemail` tinyint(1) not null default '0',
+  `publicEmail` tinyint(1) not null default '0',
   `picture` varchar(64) not null default '',
   `active` tinyint(1) not null default '0',
   primary key (`id`)
