@@ -3,30 +3,30 @@
 ## USER  
 
 ### Instanciation
- `$user = new User( $id );`  
+ `$user = new User( $id );`         
 
 ### Getters
 
  __getId()__ : returns id  
-`$user -> getId();` 
+`$user -> getId();`        
 
  __getUsername()__ : returns Username 
-`$user -> getUsername(); ` 
+`$user -> getUsername(); `        
 
  __getEmail()__ : returns Email 
-`$user -> getEmail(); ` 
+`$user -> getEmail(); `        
 
  __getPassword()__ : returns Password 
-`$user -> getPassword(); ` 
+`$user -> getPassword(); `        
 
  __isPublicEmail()__ : returns isPublicEmail ( true / false ) 
-`$user -> isPublicEmail(); ` 
+`$user -> isPublicEmail(); `        
 
  __getPicture()__ : returns getPicture    
-`$user -> getPicture(); ` 
+`$user -> getPicture(); `        
 
  __isActive()__ : returns isActive ( true / false )   
-`$user -> isActive(); ` 
+`$user -> isActive(); `        
 
 
 
