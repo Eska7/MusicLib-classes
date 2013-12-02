@@ -18,7 +18,9 @@
 		protected $db;
 
 		public function __construct( $id ) {
-			(is_numeric( $id ) && (int)$id !== 0) || die( "Error: Wrong username or password." );
+			(is_numeric( $id ) 
+			&& (int)$id !== 0) 
+			|| die( "Error: Wrong username or password." );
 			$this->db = $_SESSION['db'];
 			$this->fetchData( $id );
 		}
