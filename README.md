@@ -1,35 +1,31 @@
 # README
 
-***
-
 ## USER  
 
 ### Instanciation
 > `$user = new User( $id );`  
 
-***
-
 ### Getters
 
-> `getId()` : returns id  
+> __getId()__ : returns id  
 >> `$user -> getId();` 
 
-> `getUsername()` : returns Username 
+> __getUsername()__ : returns Username 
 >> `$user -> getUsername(); ` 
 
-> `getEmail()` : returns Email 
+> __getEmail()__ : returns Email 
 >> `$user -> getEmail(); ` 
 
-> `getPassword()` : returns Password 
+> __getPassword()__ : returns Password 
 >> `$user -> getPassword(); ` 
 
-> `isPublicEmail()` : returns isPublicEmail ( true / false ) 
+> __isPublicEmail()__ : returns isPublicEmail ( true / false ) 
 >> `$user -> isPublicEmail(); ` 
 
-> `getPicture()` : returns getPicture    
+> __getPicture()__ : returns getPicture    
 >> `$user -> getPicture(); ` 
 
-> `isActive()` : returns isActive ( true / false )   
+> __isActive()__ : returns isActive ( true / false )   
 >> `$user -> isActive(); ` 
 
 
