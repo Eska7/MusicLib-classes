@@ -1,14 +1,13 @@
->>>>>>>>>> # README
+# README
 
 ***
 
-
->>>>>>>>>> ## USER  
+## USER  
 
 ### Instanciation
 > `$user = new User( $id );`  
 
->>>>>>>  ***
+***
 
 ### Getters
 
@@ -34,19 +33,14 @@
 >> `$user -> isActive(); ` 
 
 
->>>>>>>  ***
 
 ### Setters
 > azertyuiopqsdfghjklmwxcvbn
 
 
->>>>>>>  ***
-
 ### Regular methods
 > azertyuiopqsdfghjklmwxcvbn
 
-
->>>>>>>  ***
 
 ### Static methods
 > azertyuiopqsdfghjklmwxcvbn
